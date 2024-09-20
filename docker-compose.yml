@@ -9,6 +9,7 @@ services:
       - LANG=en
       # ⚠️ Required:
       # Change this to your host's public address
+      - SERVICE_FQDN_WG-EASY_51821
       - WG_HOST=${SERVICE_FQDN_WG-EASY_51821}
 
       # Optional:
